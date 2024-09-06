@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { ReadStream } from "fs";
 export interface File {
     name: string;

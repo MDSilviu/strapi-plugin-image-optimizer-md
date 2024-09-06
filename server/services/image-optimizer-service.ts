@@ -4,7 +4,7 @@ import sharp, { Sharp, Metadata } from "sharp";
 import { file as fileUtils } from '@strapi/utils';
 
 // @ts-ignore - No types available
-import pluginUpload from "@strapi/plugin-upload/strapi-server";
+import pluginUpload from "@strapi/upload/strapi-server";
 const imageManipulation = pluginUpload().services["image-manipulation"];
 
 import {

@@ -8,7 +8,7 @@ const path_1 = require("path");
 const sharp_1 = __importDefault(require("sharp"));
 const utils_1 = require("@strapi/utils");
 // @ts-ignore - No types available
-const strapi_server_1 = __importDefault(require("@strapi/plugin-upload/strapi-server"));
+const strapi_server_1 = __importDefault(require("@strapi/upload/strapi-server"));
 const imageManipulation = (0, strapi_server_1.default)().services["image-manipulation"];
 const settings_service_1 = __importDefault(require("./settings-service"));
 const defaultFormats = ["original", "webp", "avif"];
