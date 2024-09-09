@@ -193,7 +193,7 @@ function getFileMimeType(sourceFile: File, format: OutputFormat) {
   return format === "original" ? sourceFile.mime : `image/${format}`;
 }
 
-export default () => ({
-  ...imageManipulation(),
+export default {
+  ...imageManipulation,
   generateResponsiveFormats: optimizeImage,
-});
+};
