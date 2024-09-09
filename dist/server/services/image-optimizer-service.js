@@ -125,7 +125,7 @@ function getFileExtension(sourceFile, format) {
 function getFileMimeType(sourceFile, format) {
     return format === "original" ? sourceFile.mime : `image/${format}`;
 }
-exports.default = () => ({
-    ...imageManipulation(),
+exports.default = {
+    ...imageManipulation,
     generateResponsiveFormats: optimizeImage,
-});
+};

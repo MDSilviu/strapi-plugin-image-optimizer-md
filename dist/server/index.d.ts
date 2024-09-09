@@ -5,7 +5,7 @@ declare const _default: {
     };
     services: {
         settingsService: typeof import("./services/settings-service").default;
-        imageOptimizerService: () => any;
+        imageOptimizerService: any;
     };
 };
 export default _default;
