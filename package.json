@@ -51,7 +51,7 @@
     "npm": ">=6.0.0"
   },
   "devDependencies": {
-    "@strapi/typescript-utils": "^4.20.5",
+    "@strapi/typescript-utils": "^5.4.2",
     "install-peers": "^1.0.4",
     "typescript": "^5.4.2"
   },
